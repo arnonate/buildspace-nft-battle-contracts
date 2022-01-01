@@ -1,8 +1,8 @@
 const main = async () => {
+  const imgBase = "https://ipfs.infura.io/ipfs";
   const gameContractFactory = await hre.ethers.getContractFactory(
     "TolkienTokens"
   );
-
   const gameContract = await gameContractFactory.deploy(
     ["Gimli", "Aragorn", "Legolas"],
     [

@@ -16,3 +16,6 @@ npx hardhat help
 yarn hardhat run scripts/run.js
 yarn hardhat run scripts/deploy.js --network rinkeby
 ```
+
+https://rinkeby.etherscan.io/
+https://testnets.opensea.io/

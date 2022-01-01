@@ -3,7 +3,6 @@ const main = async () => {
   const gameContractFactory = await hre.ethers.getContractFactory(
     "TolkienTokens"
   );
-
   const gameContract = await gameContractFactory.deploy(
     ["Gimli", "Aragorn", "Legolas"],
     [
