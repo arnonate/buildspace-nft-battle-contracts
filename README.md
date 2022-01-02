@@ -19,3 +19,4 @@ yarn hardhat run scripts/deploy.js --network rinkeby
 
 https://rinkeby.etherscan.io/
 https://testnets.opensea.io/
+https://anarkrypto.github.io/upload-files-to-ipfs-from-browser-panel/public/
