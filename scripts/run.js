@@ -11,18 +11,14 @@ const main = async () => {
   // an NFT w/ the character at index 2 of our array.
   txn = await gameContract.mintCharacterNFT(2);
   await txn.wait();
-  console.log("Characters minted!");
-
-  txn = await gameContract.attackBoss();
-  await txn.wait();
-  console.log("Boss attacked!");
 
   txn = await gameContract.attackBoss();
   await txn.wait();
 
-  // Get the value of the NFT's URI.
-  // let returnedTokenUri = await gameContract.tokenURI(1);
-  // console.log("Token URI:", returnedTokenUri);
+  txn = await gameContract.attackBoss();
+  await txn.wait();
+
+  console.log("Done!");
 };
 
 const runMain = async () => {
